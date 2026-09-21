@@ -95,5 +95,4 @@ public class PSong {
         else lengthIndicator = "*";
         return String.format("| %s | %s %s | %d %s | %s %s |", s.title, s.getAlbumF(), albumIndicator, s.track, trackIndicator, s.getLengthF(), lengthIndicator); 
     }
-    // ↑ ↓
 }
