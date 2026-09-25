@@ -25,7 +25,7 @@ public class Paramordle {
         System.out.println("Song titles are not case or punctuation sensitive, abbreviations are allowed.");
         System.out.println("Have fun!");
         System.out.println("----------------------------------------------------------------------------------------------------------------");
-        PSong guess = null; // guess will be initialized when the user inputs a valid song
+        PSong guess; // guess will be initialized when the user inputs a valid song
         int tries = 5; // amount of turns the player has
         boolean guessed = false; // boolean to end loop if the guess is correct
         Scanner inputScanner = new Scanner(System.in);
